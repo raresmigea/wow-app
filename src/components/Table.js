@@ -5,7 +5,7 @@ function Table(props) {
     <div className='App'>
       <header className='App-header'>Table {props.index}</header>
       <button onClick={props.clickMe}>Click!</button>
-      <button onClick={props.clickHide}>Click Del!</button>
+      <button onClick={props.clickHide}>Click del!</button>
       <div>{props.variable}</div>
     </div>
   );
